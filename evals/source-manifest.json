@@ -1,0 +1,14 @@
+{
+  "source": "Adaptive Creative Direction & High-Fidelity Web Engineering",
+  "sections": 17,
+  "source_body_sha256": "278c9b958989579e95ae430ffe9cf7bdeaa1915e30450740c6477228ee6eaf49",
+  "modules": [
+    "01-discovery.md",
+    "02-design-system.md",
+    "03-motion.md",
+    "04-rendering.md",
+    "05-experience-and-state.md",
+    "06-responsive-engineering.md",
+    "07-production-and-audit.md"
+  ]
+}

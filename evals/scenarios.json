@@ -1,0 +1,113 @@
+{
+  "status": "not_run",
+  "method": "Manual rubric: execute each prompt with Nexus enabled; score each assertion pass/fail/not-run with evidence. Compare against the same prompt without Nexus if benchmarking.",
+  "cases": [
+    {
+      "id": "missing-brief",
+      "prompt": "Use Nexus.",
+      "expected_behavior": "Ask for theme, audience and purpose; do not choose a site type.",
+      "assertions": [
+        "No premature implementation",
+        "Compact interview",
+        "No template assumptions"
+      ]
+    },
+    {
+      "id": "portfolio",
+      "prompt": "Use Nexus to build a developer portfolio using the supplied GitHub projects and profile.",
+      "expected_behavior": "Inspect provided source; clarify only missing essentials; create project-specific direction.",
+      "assertions": [
+        "No fabricated accomplishments",
+        "No shop/cart",
+        "Project evidence and accessible contact",
+        "Runnable output"
+      ]
+    },
+    {
+      "id": "saas",
+      "prompt": "Redesign an existing SaaS onboarding flow without changing its backend.",
+      "expected_behavior": "Preserve contracts, inspect code and design around activation.",
+      "assertions": [
+        "State and validation integrity",
+        "No forced intro",
+        "Responsive and keyboard flow",
+        "Existing features preserved"
+      ]
+    },
+    {
+      "id": "commerce",
+      "prompt": "Build an immersive storefront for a ceramic studio with product variants.",
+      "expected_behavior": "Choose a signature rooted in ceramic materiality and implement scoped commerce functionality.",
+      "assertions": [
+        "Variant state synchronized",
+        "No fake checkout success",
+        "Rendering choice justified",
+        "Motion fallback"
+      ]
+    },
+    {
+      "id": "dashboard",
+      "prompt": "Build an operations dashboard for incident triage with mock data.",
+      "expected_behavior": "Prioritize fast task completion and data legibility; label mocks.",
+      "assertions": [
+        "No misleading real operations",
+        "Keyboard and filtering",
+        "Empty and error states",
+        "No decorative blocking effects"
+      ]
+    },
+    {
+      "id": "editorial",
+      "prompt": "Create an online journal with long essays and photographs.",
+      "expected_behavior": "Prioritize reading, typographic rhythm and editorial hierarchy.",
+      "assertions": [
+        "Long content works",
+        "No product card grid by default",
+        "Asset attribution and fallback",
+        "Readable reduced-motion state"
+      ]
+    },
+    {
+      "id": "advanced-rendering",
+      "prompt": "Build a narrative site in which a model travels between sections and can be rotated.",
+      "expected_behavior": "Specify real geometry/projection, anchors, transitions, picking and fallback when justified.",
+      "assertions": [
+        "Numerical camera and trajectory contract",
+        "Continuous identity and position",
+        "Resize and reverse scroll",
+        "WebGL failure fallback"
+      ]
+    },
+    {
+      "id": "specification-only",
+      "prompt": "Use Nexus to write a production-ready spec for an architecture studio. Do not code.",
+      "expected_behavior": "Deliver concrete project-specific specification without implementation.",
+      "assertions": [
+        "No unauthorized code changes",
+        "Numeric parameters where relevant",
+        "Acceptance tests",
+        "Theme-specific creative thesis"
+      ]
+    },
+    {
+      "id": "existing-repo",
+      "prompt": "Use Nexus to fix a tiny typo in a website footer.",
+      "expected_behavior": "Honor narrow scope rather than launching an unnecessary creative overhaul.",
+      "assertions": [
+        "No unrelated changes",
+        "No redundant interview",
+        "Verification appropriate to scope"
+      ]
+    },
+    {
+      "id": "limited-tools",
+      "prompt": "Build the experience but assume no browser is available.",
+      "expected_behavior": "Implement as far as tools permit and report unrun browser tests.",
+      "assertions": [
+        "No false pass claims",
+        "Explicit limitations",
+        "Reproducible run instructions"
+      ]
+    }
+  ]
+}
